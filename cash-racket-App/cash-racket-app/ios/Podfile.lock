@@ -1,0 +1,244 @@
+PODS:
+  - applovin_max (3.2.0):
+    - AppLovinSDK (= 11.11.2)
+    - Flutter
+  - AppLovinSDK (11.11.2)
+  - assets_audio_player (0.0.1):
+    - Flutter
+  - assets_audio_player_web (0.0.1):
+    - Flutter
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - facebook_audience_network (0.0.1):
+    - FBAudienceNetwork (~> 6.3)
+    - Flutter
+  - FBAudienceNetwork (6.14.0)
+  - Flutter (1.0.0)
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Google-Mobile-Ads-SDK (10.4.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - google_mobile_ads (1.0.0):
+    - Flutter
+    - Google-Mobile-Ads-SDK (~> 10.4.0)
+    - webview_flutter_wkwebview
+  - GoogleAppMeasurement (10.14.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.14.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.14.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.14.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.14.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleUserMessagingPlatform (2.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.5):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.5):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.5):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.5):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.5)"
+  - GoogleUtilities/Reachability (7.11.5):
+    - GoogleUtilities/Logger
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - in_app_review (0.2.0):
+    - Flutter
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - nb_utils (0.0.1):
+    - Flutter
+  - OrderedSet (5.0.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PromisesObjC (2.3.1)
+  - ReachabilitySwift (5.0.0)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - startapp_sdk (0.4.2):
+    - Flutter
+    - StartAppSDK (~> 4.10)
+  - StartAppSDK (4.10.0)
+  - Toast (4.0.0)
+  - unity_ads_plugin (0.0.1):
+    - Flutter
+    - UnityAds (= 4.6.1)
+  - UnityAds (4.6.1)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - vungle (6.12.2):
+    - Flutter
+    - VungleSDK-iOS
+  - VungleSDK-iOS (6.12.3)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - applovin_max (from `.symlinks/plugins/applovin_max/ios`)
+  - assets_audio_player (from `.symlinks/plugins/assets_audio_player/ios`)
+  - assets_audio_player_web (from `.symlinks/plugins/assets_audio_player_web/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - facebook_audience_network (from `.symlinks/plugins/facebook_audience_network/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - google_mobile_ads (from `.symlinks/plugins/google_mobile_ads/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - in_app_review (from `.symlinks/plugins/in_app_review/ios`)
+  - nb_utils (from `.symlinks/plugins/nb_utils/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - startapp_sdk (from `.symlinks/plugins/startapp_sdk/ios`)
+  - unity_ads_plugin (from `.symlinks/plugins/unity_ads_plugin/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - vungle (from `.symlinks/plugins/vungle/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppLovinSDK
+    - FBAudienceNetwork
+    - FMDB
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - nanopb
+    - OrderedSet
+    - PromisesObjC
+    - ReachabilitySwift
+    - StartAppSDK
+    - Toast
+    - UnityAds
+    - VungleSDK-iOS
+
+EXTERNAL SOURCES:
+  applovin_max:
+    :path: ".symlinks/plugins/applovin_max/ios"
+  assets_audio_player:
+    :path: ".symlinks/plugins/assets_audio_player/ios"
+  assets_audio_player_web:
+    :path: ".symlinks/plugins/assets_audio_player_web/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  facebook_audience_network:
+    :path: ".symlinks/plugins/facebook_audience_network/ios"
+  Flutter:
+    :path: Flutter
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  google_mobile_ads:
+    :path: ".symlinks/plugins/google_mobile_ads/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  in_app_review:
+    :path: ".symlinks/plugins/in_app_review/ios"
+  nb_utils:
+    :path: ".symlinks/plugins/nb_utils/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  startapp_sdk:
+    :path: ".symlinks/plugins/startapp_sdk/ios"
+  unity_ads_plugin:
+    :path: ".symlinks/plugins/unity_ads_plugin/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  vungle:
+    :path: ".symlinks/plugins/vungle/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  applovin_max: 417d700bed49049d9ff86237a3fe8aedb4000a58
+  AppLovinSDK: 86ac2d11e3fda1d2cb5b235fb8a4bbd39ab0ebee
+  assets_audio_player: edee322b9cb625571b830b35872ead1a295fd917
+  assets_audio_player_web: 19826380c44375761aa0b9053665c1e3fbc3b86b
+  connectivity_plus: 07c49e96d7fc92bc9920617b83238c4d178b446a
+  facebook_audience_network: bb22bdda913d419d8c3247c9570bda4563302417
+  FBAudienceNetwork: 4d6223a9a88a22e9dca8c9e6c1829a8745b86228
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  fluttertoast: fafc4fa4d01a6a9e4f772ecd190ffa525e9e2d9c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Google-Mobile-Ads-SDK: 32fe7836431a06a29f7734ae092b600137c8108d
+  google_mobile_ads: 53b1f0d74445963e5810e34ac38dfb27aabe278e
+  GoogleAppMeasurement: 7fee012a868315d418f365fbc8d394d8e020e749
+  GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
+  GoogleUtilities: 13e2c67ede716b8741c7989e26893d151b2b2084
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  in_app_review: 318597b3a06c22bb46dc454d56828c85f444f99d
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  nb_utils: ada4338858d8827ec92fdab2a545206b4ba4cfb1
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  share_plus: 599aa54e4ea31d4b4c0e9c911bcc26c55e791028
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  startapp_sdk: 0adf0c04c81795fc0cee36cd4615b4ca20289340
+  StartAppSDK: cb462196df70ee3837b95a24118180491b06be2f
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  unity_ads_plugin: a7c3b00019fc4687a7f92dd448f77dd43bae73c5
+  UnityAds: 824808c73af90fe4302ee0594381c8d515e5ce97
+  url_launcher_ios: 08a3dfac5fb39e8759aeb0abbd5d9480f30fc8b4
+  vungle: 7335eeaed096591bba02f2bca31334f1947c5098
+  VungleSDK-iOS: 27725029a42dfb9e39c67956637233fde1ee1797
+  webview_flutter_wkwebview: 2e2d318f21a5e036e2c3f26171342e95908bd60a
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.12.1

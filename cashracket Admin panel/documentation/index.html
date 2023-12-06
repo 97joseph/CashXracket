@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; chaModaet=UTF-8">
+	<title>Cash Rocket - Online Quiz System (Documentation)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.svg">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<img class="nav-logo " style="margin-top: 23px; height: 35px; width: auto;" src="assets/img/logo.svg"
+					alt="">
+			</div>
+			<nav class="collapse navbar-collapse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="https://cashrocket.acnoo.com/" target="_blank">View Demos</a>
+					</li>
+					<li>
+						<a href="https://codecanyon.net/user/maan_theme/portfolio" target="_blank">PURCHASE NOW</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</nav>
+
+	<div id="masthead">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="mb-0">Cash Racket – Flutter Earning App with Admin Panel</h1>
+					<p>This document contains general information and step by step guidelines<br> on how to install
+						on your Local/Live server Admin Panel App</p>
+					<span class="cta-button"><a href="#getting-started">Get started</a></span>
+				</div>
+			</div>
+		</div>
+		<!--/container-->
+	</div>
+	<!--/masthead-->
+
+	<!--main-->
+	<div id="mainContent" class="container">
+		<div class="row">
+			<!--left-->
+			<div class="col-md-3 mt-5" id="leftCol">
+				<div class="position-sticky">
+					<h5><span data-toggle="collapse" data-target="#admin" class="collapse-btn ">Cash Rocket Admin Panel</span></h5>
+					<div class="collapse in" id="admin">
+						<ul class="nav nav-stacked affix-top mt-0 mb-3" id="sidebar">
+							<li class="active"><a href="#getting-started">Getting started</a></li>
+							<li><a href="#requirements">Requirements</a></li>
+							<li><a href="#download">Download from Envato</a></li>
+							<li><a href="#database" title="Creating Database">Creating Database</a></li>
+							<li><a href="#upload" title="Uploading Files">Uploading Files</a></li>
+							<li><a href="#install" title="Installation Wizard">Installation Wizard</a></li>
+							<li><a href="#password" title="Default Password">Default Password</a></li>
+							<li><a href="#faqs" title="Default Password">Faq</a></li>
+							<li><a href="#support" title="Default Password">Help & Support</a></li>
+						</ul>
+					</div>
+
+					<h5><span data-toggle="collapse" data-target="#admin-features" class="collapse-btn collapsed">Introduction to features</span></h5>
+					<div class="collapse" id="admin-features">
+						<ul class="nav nav-stacked affix-top mt-0" id="sidebar">
+							<li><a href="#admin-dashboard">Dashboard</a></li>
+							<li><a href="#admin-users">Manage Users</a></li>
+							<li><a href="#admin-reports">Reports</a></li>
+							<li><a href="#admin-categories">Quiz Categories</a></li>
+							<li><a href="#admin-quiz">Quiz</a></li>
+							<li><a href="#admin-questions">Questions</a></li>
+							<li><a href="#admin-withdraw-method">Withdraw Method</a></li>
+							<li><a href="#admin-withdraw-requests">Withdraw Requests</a></li>
+							<li><a href="#admin-currency">Currency</a></li>
+							<li><a href="#admin-currency-convert">Currency Convert</a></li>
+							<li><a href="#admin-adnetworks">Adnetworks</a></li>
+							<li><a href="#admin-reward">Reward Settings</a></li>
+							<li><a href="#admin-system">System Settings</a></li>
+							<li><a href="#admin-website">Website Settings</a></li>
+						</ul>
+						<br>
+					</div>
+
+					<h5><span data-toggle="collapse" data-target="#app" class="collapse-btn collapsed">Cash Rocket App</span></h5>
+					<div class="collapse" id="app">
+						<ul class="nav nav-stacked affix-top mt-0" id="sidebar">
+							<li class="active"><a href="#tool-setup">Tools & Setup</a></li>
+							<li><a href="#android-studio">Android Studio – Windows</a></li>
+							<li><a href="#android-studio-mac">Android Studio – macOS</a></li>
+							<li><a href="#android-studio-linux" title="Creating Database">Android Studio – Linux</a></li>
+							<li><a href="#getting-start-app" title="Uploading Files">Build & Run</a></li>
+							<li><a href="#project-feature" title="Installation Wizard">Structure & Features </a></li>
+							<li><a href="#mobile-setup" title="Default Password">Mobile Application Setup</a></li>
+							<li><a href="#support" title="Default Password">Help & Support</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--/left-->
+
+			<!--right-->
+			<div class="col-md-9  ">
+				<div class="ContentWrapper">
+					<h1 id="getting-started">Getting Started</h1>
+					<h3>Cash Racket – Flutter Earning App with Admin Panel</h3>
+					<hr class="my-0">
+					<ul>
+						<li>Uploaded Date: 23-March-2023</li>
+						<li>Project: Cash Rocket</li>
+						<li>Author: Maan Theme</li>
+						<li><a href=""></a></li>
+						<li>Email: <a href="mailto:maantheme@gmail.com">maantheme@gmail.com</a></li>
+					</ul>
+					<p class="important">Thank you for purchasing our product. If you have any questions that are beyond the scope of this documentation 
+						file, please feel free to email us via our user page contact form or directly to email at <a href="mailto:maantheme@gmail.com">maantheme@gmail.com</a></p>
+	
+	
+					<div id="requirements" class="theme-requirements">
+						<div class="page-header">
+							<h3 class="mb-0">Requirements</h3>
+						</div>
+						<div>We are using  <b>laravel 9</b> So these are the minimum server requirements, the installer will check if your server meets these or alternatively you can contact your hosting provider in order to make sure your server meets them.</div> <br>
+						<ul>
+							<li>PHP >= 8.0.2</li>
+							<li>Ctype PHP Extension</li>
+							<li>cURL PHP Extension</li>
+							<li>DOM PHP Extension</li>
+							<li>Fileinfo PHP Extension</li>
+							<li>Filter PHP Extension</li>
+							<li>Hash PHP Extension</li>
+							<li>Mbstring PHP Extension</li>
+							<li>OpenSSL PHP Extension</li>
+							<li>PCRE PHP Extension</li>
+							<li>PDO PHP Extension</li>
+							<li>Session PHP Extension</li>
+							<li>Tokenizer PHP Extension</li>
+							<li>XML PHP Extension</li>
+						</ul>
+	
+						<p class="info">For more information about deployment see the Laravel documentation here <a href="https://laravel.com/docs/9.x/deployment">https://laravel.com/docs/9.x/deployment</a></p>
+						<p>	&nbsp;</p>
+					</div>
+	
+					<section id="download">
+						<div class="page-header">
+							<h3 class="m-0">Download Project from Envato</h3>
+						</div>
+						<p class="m-0">After successfully purchase Cash Rocket download the project from <a href="https://codecanyon.net/downloads">Envato download page</a></p>
+				
+						<img src="assets/img/download.png" class="border">
+				
+						<p>Extract the downloaded file. You will have another zip file named <em>cashrocket.zip</em> containing the main project's files and a documentation folder. You are reading this documentation, that means you already have theme both.</p>
+					</section>
+	
+					<section id="database">
+						<div class="page-header"><h3>Creating Database</h3></div>
+						<p>Before installing, you will need to create a new database. If you already know how to do this or have already created one, skip to the next step.</p>
+						<p class="important"><b>Note: </b> Please use empty database. In most cases you should be able to create a database from your cpanel.</p>
+				
+						<p>Login to your cPanel by entering this in your browser url</p>
+						<p class="important">yourdomian.com/cpanel</p>
+				
+						<img src="assets/img/cpanel_login.png" alt="" class="border">
+						<h5>Step: 1</h5>
+						<img src="assets/img/create-database.png" alt="" class="border">
+						<h5>Step: 2</h5>
+						<img src="assets/img/create-new-db.jpg" alt="" class="border">
+						<h5>Step: 3</h5>
+						<p>Now you need to create a new user. On the same page go to create a new database user</p>
+						<img src="assets/img/create-user.png" alt="" class="border">
+						<h5>Step: 4</h5>
+						<p>Now add the user to the database</p>
+						<img src="assets/img/db-user.jpg" alt="" class="border">
+						<h5>Step: 5</h5>
+						<p>And select full permissions on the database to that user</p>
+						<img src="assets/img/all-permissions.jpg" alt="" class="border">
+					</section>
+	
+					<section id="upload">
+						<div class="page-header"><h3>Uploading Files</h3></div>
+				
+						<p class="important">On some operating systems, the dotfiles are hidden by default. Before starting to upload the files, please make sure your file explorer has the option to view hidden files turned on.</p>
+				
+						<p>After creating a database, Upload the <b>cashrocket.zip</b> file on the web root folder of your domain. This folder is generally called public_html, html, or example.com, but depending on your server's configuration, it might be named differently.</p>
+				
+						<img src="assets/img/file-manager.png" alt="" class="border">
+						<img src="assets/img/public-html.png" alt="" class="border">
+						<p>After that in the public_html directory upload the downloaded file.</p>
+						<img src="assets/img/upload3.png" alt="" class="border">
+						<img src="assets/img/upload4.png" alt="" class="border">
+				
+						<p>Now extract the cashrocket.zip file inside the root folder.</p>
+				
+						<p class="important"><b>Note: </b> Important Make sure that you have .env file in your folder. </p>
+				
+						<p class="important"><b>Note: </b> Make sure that .htaccess file got copied properly from the download to your server. </p>
+					</section>
+	
+					<section id="install">
+						<div class="page-header">
+							<h3>Installation Wizard</h3>
+						</div>
+						<div>
+							<p>Go to your website address, then you'll see an installation wizard. To open the installer. Visit</p>
+						</div>
+						<p class="important">yourdomain.com/install</p>
+						<p>Now the installer will show up.The First screen will be Welcome Screen</p>
+			
+						<img src="assets/img/installer.png" alt="" width="448" class="border">
+			
+						<p class="warning">Note : If you are not able to access the website by accessing yourdomain.com/install, but
+							you are able to access it via yourdomain.com/index.php/install, this means that you probably don't have
+							Apache mod_rewrite installed and enabled. </p>
+			
+						<h3>Server Requirements</h3>
+						<p>After clicking on "Check requirement" button, you will be redirected to System Requirements step during
+							the installation wizard, System Requirements.</p>
+			
+						<img src="assets/img/requirements-check.png" alt="" width="443" class="border">
+			
+						<h3>Directory Permissions</h3>
+			
+						<p>After successfully enabling and installing all required PHP extensions, next step is to set the
+							appropriate permissions for some system folders that shows on below picture.</p>
+			
+						<p class="important">For giving permissions please open your terminal window and type command <code>sudo chmod
+							777 directory_name</code> for example <code>sudo chmod 777 app</code></p>
+
+						<p class="important">Note: If you are not capable to do this, Please <a href="#faqs">visit this link.</a></p>
+			
+						<img src="assets/img/permissions.png" alt="" width="448" class="border">
+			
+						<h3>Database/Environment Setting</h3>
+			
+						<p>You have to fill in your database credentials</p>
+			
+						<img src="assets/img/db-config.png" alt="" width="447" class="border">
+			
+						<h3>Exit</h3>
+			
+						<p>The last step is exit step.</p>
+			
+						<img src="assets/img/save-db.png" alt="" width="445" class="border">
+						<img src="assets/img/install.png" alt="" width="445" class="border">
+						<img src="assets/img/success.png" alt="" width="445" class="border">
+						<p class="important">Congratulations you have successfully installed this project on your server. 😀</p>
+						<p> &nbsp;</p>
+					</section>
+	
+					<section id="password">
+						<div class="page-header">
+							<h3>Default Password</h3>
+						</div>
+						<p>Now You are ready to login with below detail.</p>
+						<p>Admin login credentials</p>
+						<div class="important">
+							<span class="d-block">Admin Login</span>
+							<span class="d-block">username : admin@admin.com</span>
+							<span class="d-block">password : admin</span>
+						</div>
+						<br>
+						<div class="important">
+							<span class="d-block">User Login (Mobile App)</span>
+							<span class="d-block">username : user@user.com</span>
+							<span class="d-block">password : user</span>
+						</div>
+					</section>
+
+					<section id="faqs">
+						<div class="page-header">
+							<h3>I'm not capable to give permission by the terminal, Can you give me another example?</h3>
+						</div>
+
+						<p><b>Yes</b>, Here is an example. 😃</p>
+						<p>If you're facing an issue like the below image, That means you don't have 777 permission in these folders.</p>
+
+						<img src="assets/img/permission-denied.png" alt="" width="445" class="border">
+
+						<p>For giving permission go back to your project root directory, where you uploaded your all files.</p>
+
+						<a target="_blank" href="assets/img/storage-bootstrap.png">
+							<img src="assets/img/storage-bootstrap.png" alt="" width="445" class="border">
+						</a>
+
+						<div class="important">
+							If you don't have permission into the <code>storage/framework/</code> or <code>storage/logs/</code> please open the storage folder.
+						</div>
+
+						<img src="assets/img/framework-folder-permissions.png" alt="">
+
+						<p>After opening the storage folder you'll find the framework and logs folder, please right-click on the framework and click on Change Permissions. </p>
+						
+						<img src="assets/img/777-permission-storate.png" alt="">
+						<p>After that please check all checkboxes, and click on the Change Permissions button.</p>
+						<p>Please do the same job for the logs folder.</p>
+
+						<div class="important">
+							If you don't have permission into the <code>bootstrap/cache/</code> folder please open the bootstrap folder.
+						</div>
+
+						<img src="assets/img/bootstrap-permissions.png" alt="">
+
+						<p>Please do the exact same job for the <code>bootstrap/cache</code> folder. and go back to your installer and reload the page.</p>
+						<p>If you are seeking this page like the below image, that means you're done. 😃</p>
+						<img src="assets/img/permissions-done.png" alt="">
+
+						<div class="important">
+							Please follow the next installation process.
+						</div>
+					</section>
+				</div>
+
+				<div class="ContentWrapper">
+					<div class="page-header mb-5">
+						<h2 id="admin-dashboard">Introduction to features</h2>
+					</div>
+					<div class="tool-setup-section mt-3">
+						<h3 class="mb-3">Admin Dashboard</h3>
+						<h6>1. You'll found all reports from the top of the admin dashboard.</h6>
+						<img src="assets/img/dashboard-1.png" alt="">
+						
+						<h6>2. You'll found monthly withdraw request by chart.</h6>
+						<img src="assets/img/dashboard-2.png" alt="">
+						
+						<h6>3. You'll found Top 5 users from this list.</h6>
+						<img src="assets/img/dashboard-3.png" alt="">
+						
+						<h6>4. You'll found Latest 5 Quizzes from this list.</h6>
+						<img src="assets/img/dashboard-4.png" alt="">
+					</div>
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-users">
+						<h3 class="mb-3">Manage Users</h3>
+						<h6>You can see all users from this page.</h6>
+						<img src="assets/img/users-list.png" alt="">
+						
+						<h6>If you want to create a new user, Please click on Add User button.</h6>
+						<img src="assets/img/create-new-user-btn.png" alt="">
+						
+						<h6>After clicking on Add User button, You'll see this page, Please fill all input fields correctly and click on the Save button to create a new user.</h6>
+						<img src="assets/img/create-users.png" alt="">
+					</div>
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-reports">
+						<h3 class="mb-3">Reports</h3>
+
+						<h6>In the Reports menu, you'll find all reports here.</h6>
+						<img src="assets/img/reports.png" alt="">
+					</div>
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-categories">
+						<h3 class="mb-3">Quiz Categories</h3>
+
+						<h6>On this page, you'll find all quiz categories list here. To create a new quiz category please click on Create New button.</h6>
+						<img src="assets/img/quiz-category.png" alt="">
+
+						<h6>After clicking on Create New button you'll see this page. Please fill all fields and click on Save button to create a new quiz category.</h6>
+						<img src="assets/img/create-quiz-category.png" alt="">
+					</div>
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-quiz">
+						<h3 class="mb-3">Quiz</h3>
+
+						<h6>On this page, you'll find all quizzes listed here. To create a new quiz please click on Add Quiz button.</h6>
+						<img src="assets/img/quiz-list.png" alt="">
+
+						<h6>After clicking on Add Quiz button you'll see this page. Please select a quiz category and fill all fields & click on Save button to create a new quiz.</h6>
+						<img src="assets/img/create-quiz.png" alt="">
+					</div>
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-questions">
+						<h3 class="mb-3">Questions</h3>
+
+						<h6>In the Question menu, you'll find all questions list on this page. If you want to create a new question please click on Add Question button.</h6>
+						<img src="assets/img/questions-list.png" alt="">
+
+						<h6>After clicking on Add Question button you'll see this page. Please select a Quiz and fill all fields to create a new question.</h6>
+						<img src="assets/img/create-questions.png" alt="">
+					</div>
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-withdraw-method">
+						<h3 class="mb-3">Withdraw Method</h3>
+
+						<h6>In the Withdraw Method menu, you'll find all withdraw methods list on this page. If you want to create a new Withdraw Method please click on Create New button.</h6>
+						<img src="assets/img/withdraw-methods-list.png" alt="">
+
+						<h6>After clicking on Create New button you'll see this page. Please fill all fields and click on the Save button to create a new Withdraw Method.</h6>
+						<img src="assets/img/withdraw-method-create.png" alt="">
+					</div>
+
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-withdraw-requests">
+						<h3 class="mb-3">Withdraw Requests</h3>
+
+						<h6>You'll find all withdraw request lists from this page which came from the user(Mobile App). You can View/Approve/Reject withdraw requests from the action buttons.</h6>
+						<img src="assets/img/withdraw-requests.png" alt="">
+					</div>
+
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-currency">
+						<h3 class="mb-3">Currency</h3>
+
+						<h6>You'll find all Currencies from this page. If you want to create a new currency please click on Create New button.</h6>
+						<img src="assets/img/currency-list.png" alt="">
+
+						<h6>After clicking on Create New button you'll see this page. Please fill all fields and click on the Save button to create a new Currency.</h6>
+						<img src="assets/img/create-currency.png" alt="">
+					</div>
+
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-currency-convert">
+						<h3 class="mb-3">Currency Convert</h3>
+
+						<h6>You'll find all Currency Convert list from this page. If you want to create a new currency convert please click on Create new button.</h6>
+						<img src="assets/img/currency-convert.png" alt="">
+
+						<h6>After clicking on Create New button you'll see this page. Please fill all fields and click on the Save button to create a new currency convert.</h6>
+						<img src="assets/img/currency-convert-create.png" alt="">
+					</div>
+
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-adnetworks">
+						<h3 class="mb-3">Adnetworks</h3>
+
+						<h6>You can See/Update Adnetworks settings from this page. We used this for showing some ads in the mobile app. Please update this page with your own credentials.</h6>
+						<img src="assets/img/adnetworks.png" alt="">
+					</div>
+
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-reward">
+						<h3 class="mb-3">Reward Settings</h3>
+
+						<h6>Here you'll find all reward list from this page. If you want create a new reward please click on Create new button.</h6>
+						<img src="assets/img/reward-settings.png" alt="">
+
+						<h6>After clicking on Create new button you'll see this page. Please fill all fields and click on the Save button to create a new Reward.</h6>
+						<img src="assets/img/create-reward.png" alt="">
+					</div>
+
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-system">
+						<h3 class="mb-3">System Settings</h3>
+
+						<h6>You can update system settings (App Settings / Drivers Settings / Storage Settings / Mail Configuration & Others) from this page. </h6>
+						<img src="assets/img/system-settings.png" alt="">
+					</div>
+
+					<br>
+					<div class="tool-setup-section mt-4" id="admin-website">
+						<h3 class="mb-3">Website Settings</h3>
+
+						<h6>You can update website settings from this page.</h6>
+						<img src="assets/img/website-settings.png" alt="">
+					</div>
+
+				</div>
+
+				<div class="ContentWrapper">
+					<div class="page-header mb-5">
+						<h1 style="font-size:40px">Flutter App Installation Setup Start</h1>
+					</div>
+					<div class="tool-setup-section mt-5" id="tool-setup">
+						<h1 id="getting-started">Tools & Setup</h1>
+						<div class="theme-requirements">
+							<div class="page-header">
+								<h3 class="mb-0">Prerequisite</h3>
+							</div>
+							<ul class="app-list" style="list-style: disc; padding-left: 20px">
+								<li>Flutter & Dart <a target="_blank" href="https://flutter.dev/docs/get-started/install">SDK</a></li>
+								<li>Anyone IDE Android Studio (Recommended), <a target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a> or <a target="_blank" href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></li>
+								<li>To edit this project you must have Flutter and Dart installed and configured
+									successfully on your computer.</li>
+								<li>Set up your editor - Install the <a target="_blank" href="https://flutter.dev/docs/get-started/editor?tab=androidstudio">Flutter and Dart plugins.</a></li>
+								<li>If you have got Android SDK installed and configured, to install Flutter you only need to:
+									<ul style="padding-left: 30px; list-style: disc; margin-top:15px">
+										<li>Download Flutter SDK from official website and extract it.</li>
+										<li>Add path to previously extracted SDK to your PATH variable</li>
+										<li>Run flutter doctor tool to check if everything is configured correctly.</li>
+										<li>All above steps are mentioned here: <a target="_blank" href="https://flutter.dev/docs/get-started/install/">https://flutter.dev/docs/get-started/install/</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tool-setup-section" id="android-studio">
+						<h1 id="getting-started" style="margin-top: 40px;">Android Studio – Windows</h1>
+						<div class="theme-requirements">
+							<ul class="app-list" style="list-style: disc; padding-left: 20px">
+								<li>Download Android Studio - <a target="_blank" href="https://developer.android.com/studio/">https://developer.android.com/studio/</a></li>
+								<li>Get the Flutter SDK - <a target="_blank" href="https://flutter.dev/docs/get-started/install">https://flutter.dev/docs/get-started/install</a></li>
+								<li>Learn more about Android Studio - <a target="_blank" href="https://developer.android.com/studio/intro/">https://developer.android.com/studio/intro/</a></li>
+							</ul>
+							<div class="page-header">
+								<h3 class="mb-0">Step 1 : Get the Flutter SDK</h3>
+							</div>
+							<ul style="list-style: numeric; padding-left: 20px">
+								<li class="mb-1"> Download the following installation bundle to get the latest stable release of the Flutter
+									SDK:</li>
+								<li> Extract the zip file and place the contained flutter in the desired installation location for
+									the Flutter SDK (for example, C:\src\flutter; do not install Flutter in a directory like
+									C:\Program Files\ that requires elevated privileges)</li>
+							</ul>
+							<div class="page-header">
+								<h3 class="mb-0">Step 2 : Update your path</h3>
+							</div>
+							<p>If you wish to run Flutter commands in the regular Windows console, take these steps to
+								add Flutter to the PATH environment variable: From the Start search bar, enter ‘env’ and
+								select <b>Edit environment variables for your account.</b> Under <b>User variables</b> check if there is
+								an entry called <b>Path:</b></p>
+							<ul style="list-style: disc; padding-left: 20px">
+								<li> If the entry exists, append the full path to <b>flutter\bin</b> using ; as a separator from
+									existing values.</li>
+								<li> If the entry doesn’t exist, create a new user variable named Path with the full path to
+									<b>flutter\bin</b> as its value</li>
+							</ul>
+							<div class="page-header">
+								<h3 class="mb-0">Important</h3>
+							</div>
+							<p>Note that you have to close and reopen any existing console windows for these changes to
+								take effect. <b>You are now ready to run Flutter commands in the Flutter Console!</b></p>
+								
+							<div class="page-header">
+								<h3 class="mb-0">Step 3 : Run flutter doctor</h3>
+							</div>
+							<p>From a console window that has the Flutter directory in the path (see above), run the
+								following command to see if there are any platform dependencies you need to complete the
+								setup:</p>
+							<div class="bg-black-shape">c:\src\flutter>flutter doctor</div>
+						</div>
+					</div>
+					<div class="tool-setup-section" id="android-studio-mac">
+						<h1 id="getting-started" style="margin-top: 40px;">Android Studio – macOS</h1>
+						<div class="theme-requirements">
+							<ul class="app-list" style="list-style: disc; padding-left: 20px">
+								<li>Download Android Studio - <a target="_blank" href="https://developer.android.com/studio/">https://developer.android.com/studio/</a></li>
+								<li>Download Xcode - <a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12">https://apps.apple.com/us/app/xcode/id497799835?mt=12</a></li>
+								<li>Get the Flutter SDK - <a href="https://flutter.dev/docs/get-started/install">https://flutter.dev/docs/get-started/install</a></li>
+								<li>Learn more about Android Studio - <a href="https://developer.android.com/studio/intro/">https://developer.android.com/studio/intro/</a></li>
+							</ul>
+							<div class="page-header">
+								<h3 class="mb-0">Step 1 : Get the Flutter SDK</h3>
+							</div>
+							<ul style="list-style: numeric; padding-left: 20px">
+								<li class="mb-1"> Download the following installation bundle to get the latest stable release of the Flutter
+									SDK:</li>
+								<li> Download SDK and extract downloaded file, just double click on that. and just copy
+									extracted folder and paste it to your desired location (for example, Documents\flutter).</li>
+							</ul>
+							<div class="page-header">
+								<h3 class="mb-0">Step 2 : Update your path</h3>
+							</div>
+							<h4>Important</h4>
+							<p>Path variable needs to be updated to access “flutter” command from terminal. you can just
+								update path variable for current terminal window only. and if you want to access flutter
+								commands from anywhere in terminal, we need to update SDK path permanently.</p>
+								<p>To update PATH variable, we need to open terminal.</p>
+								<p>To update PATH variable for current terminal window only, then enter this command <b>"export
+									PATH="$PATH:`pwd`/flutter/bin""</b> and hit enter key.</p>
+								<p>To update PATH variable permanently, then Open or create <b>.bash_profile</b> file. to open or
+									create that file, then enter <b>"sudo open -e $HOME/.bash_profile"</b> and hit enter key.Append
+									below line to bash_profile file at bottom of all other content. <b>"export PATH="$PATH:
+										[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin""</b> as <br>
+									[PATH_TO_FLUTTER_GIT_DIRECTORY] is actual path of SDK folder.</p>
+								
+								<p>Run this command on terminal <b>"source $HOME/.bash_profile"</b> to refresh PATH variables.</p>
+								<p>Then check whether our SDK is successfully installed or not.</p>
+
+								<h5>You are now ready to run Flutter commands in the Flutter Console!</h5>
+								<p>Run <b>"flutter doctor"</b> into terminal, If you are getting check list of flutter sdk requirements, it
+									means SDK is successfully installed on your machine. and you can start building flutter
+									apps on your machine.</p>
+						</div>
+					</div>
+
+					<div class="tool-setup-section" id="android-studio-linux">
+						<h1 id="getting-started" style="margin-top: 40px;">Android Studio – Linux</h1>
+						<div class="theme-requirements">
+							<ul class="app-list" style="list-style: disc; padding-left: 20px">
+								<li>Download Android Studio - <a target="_blank" href="https://developer.android.com/studio/">https://developer.android.com/studio/</a></li>
+								<li>Get the Flutter SDK - <a href="https://flutter.dev/docs/get-started/install/linux">https://flutter.dev/docs/get-started/install/linux</a></li>
+								<li>Learn more about Android Studio - <a href="https://developer.android.com/studio/intro/">https://developer.android.com/studio/intro/</a></li>
+							</ul>
+							<div class="page-header">
+								<h3 class="mb-0">Step 1 : Get the Flutter SDK</h3>
+							</div>
+							<ul style="list-style: numeric; padding-left: 20px">
+								<li class="mb-1"> Download the following installation bundle to get the latest stable release of the Flutter
+									SDK:</li>
+								<li> Download SDK and extract downloaded file, just double click on that. and just copy
+									extracted folder and paste it to your desired location (for example, Documents\flutter).</li>
+							</ul>
+							<div class="page-header">
+								<h3 class="mb-0">Step 2 : Update your path</h3>
+							</div>
+							<h4>Important</h4>
+							<p>Path variable needs to be updated to access “flutter” command from terminal. you can just
+								update path variable for current terminal window only. and if you want to access flutter
+								commands from anywhere in terminal, we need to update SDK path permanently.</p>
+							<p>You’ll <code>probably</code> want to update this variable permanently, so you can run flutter
+								commands in any terminal session. To update PATH variable, we need to open terminal.</p>
+
+							<ul style="list-style: numeric; padding-left: 20px">
+								<li class="mb-1"> Run <code>source $HOME/.</code> to refresh the current window, or open a new terminal window to
+									automatically source the file.</li>
+								<li> Verify that the <code>flutter/bin</code> directory is now in your PATH by running:</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="tool-setup-section" id="getting-start-app">
+						<h1 id="getting-started" style="margin-top: 40px;">GETTING STARTED (BUILD & RUN)</h1>
+						<div class="theme-requirements">
+							<h3>Important</h3>
+							<p class="mb-3">All below steps are must be followed to build and run application</p>
+						</div>
+						<div class="theme-requirements">
+							<h3>Download Project</h3>
+							<p class="mb-3">Download and find the your project folder, use your preferred IDE <b>(Android Studio / Visual
+								Studio Code / IntelliJ IDEA)</b> to run the project</p>
+							<img src="assets/img/app/1.png" alt="">
+						</div>
+						<div class="theme-requirements mb-3">
+							<h3>Get Dependencies</h3>
+							<p class="mb-3">After you loaded project successfully, run the following command in the terminal to install
+								all the dependencies listed in the <code>pubspec.yaml</code> file in the project's root directory or just
+								click on Pub get in pubspec.yaml file if you don't want to use command.</p>
+							<div class="bg-black-shape">flutter pub get</div>
+						</div>
+						<div class="theme-requirements">
+							<h3>Important</h3>
+							<p class="mb-3">All below steps are must be followed to build and run application</p>
+							<img src="assets/img/app/2.png" alt="">
+						</div>
+						<div class="theme-requirements mb-3">
+							<h3>Build and Run App</h3>
+							<ul style="padding-left:20px; list-style: numeric;">
+								<li>Locate the main Android Studio toolbar.</li>
+								<li>In the target selector, select an Android device for running the app. If none are listed as available, select Tools > Android > AVD Manager and create one there. For details, see <a href="https://developer.android.com/studio/run/managing-avds">Managing AVDs</a></li>
+								<li>Click the run icon in the toolbar, or invoke the menu item Run > Run.</li>
+							</ul>
+							<img src="assets/img/app/3.png" alt="">
+							<p>After the app build completes, you’ll see the app on your device.</p>
+							<p>If you don’t use Android Studio or IntelliJ you can use the command line to run your
+								application using the following command</p>
+						</div>
+						<div class="theme-requirements mb-3">
+							<h3>Important</h3>
+							<p class="mb-3">Below step requires flutter path to be set in your Environment variables. See
+								https://flutter.dev/docs/get-started/install/windows</p>
+							<div class="bg-black-shape mb-3">flutter run</div>
+							<p>You will see below like screen after you have build your app successfully.</p>
+							<img src="assets/img/app/4.png" alt="">
+						</div>
+						<div class="theme-requirements mb-3">
+							<h3>Try hot reload</h3>
+							<p class="mb-3">Flutter offers a fast development cycle with Stateful Hot Reload, the ability to reload the
+								code of a live running app without restarting or losing app state. Make a change to app
+								source, tell your IDE or command-line tool that you want to hot reload, and see the change
+								in your simulator, emulator, or device.</p>
+						</div>
+						<div class="theme-requirements mb-3">
+							<h3>Important</h3>
+							<p class="mb-3">Do not stop your app. let your app run.</p>
+						</div>
+					</div>
+					<div class="tool-setup-section" id="project-feature">
+						<h1 id="getting-started" style="margin-top: 40px;">PROJECT STRUCTURE & FEATURES</h1>
+						<div class="theme-requirements mb-3">
+							<ul style="list-style: disc; padding-left:20px">
+								<li><b>images:</b> apps/widgets/snippets images as well as appIcon are stored here.</li>
+								<li><b>lib:</b> Application main file and folder are located here.
+									<ul style="list-style: disc; padding-left:20px">
+										<li><b>Screens:</b> Full Apps UI Code can be found here.</li>
+										<li><b>Components:</b> Re-useable widget can be found here</li>
+										<li><b>Constant:</b> All constant value are located here</li>
+										<li><b>Main:</b> All the routes are been declared here.</li>
+									</ul>
+								</li>
+								<li><b>Pubspec.yaml:</b> Application name and other project dependencies can be found here</li>
+							</ul>
+						</div>
+						<div class="theme-requirements mb-3">
+							<h3>Application Features</h3>
+							<ul style="list-style: disc; padding-left:20px">
+								<li>Clean Code and a well structured project</li>
+								<li>Single code base for both Android & iOS</li>
+								<li>60 FPS Support for both Android & iOS</li>
+								<li>Fully responsive UI</li>
+								<li>Best UI & UX</li>
+								<li>Dark and light modes</li>
+								<li>Great animation</li>
+								<li>Easy to customize</li>
+								<li>Free life time updates & stunning customer support</li>
+								<li>Easy to integrate in your project</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tool-setup-section" id="mobile-setup">
+						<h1 id="getting-started" style="margin-top: 40px;">Mobile Application Setup:</h1>
+						<div class="theme-requirements mb-3">
+							<p class="mb-3">Unzip the downloaded zip file from envato and check the mobile app folder. Unzip
+								it and open android studio.Click open and select the unzipped folder inside mobile
+								app folder from your downloaded zip.</p>
+							<img src="assets/img/app/5.png" alt="">
+							<p>Unzip the downloaded zip file from envato and check the mobile app folder. Unzip
+								it and open android studio.Click open and select the unzipped folder inside mobile
+								app folder from your downloaded zip.</p>
+							<img src="assets/img/app/6.png" alt="">
+							<p>Then go to lib > Screen > Constant Data > Config.dart and add your server url and
+								site url.</p>
+							<img src="assets/img/app/7.png" alt="">
+							<p>Then go to android > app > src > main > androidmanifest.xml and change the
+								marked ids with your startapp and admob id.</p>
+							<img src="assets/img/app/8.png" alt="">
+						</div>
+					</div>
+					<div class="tool-setup-section" id="support">
+						<h1 id="getting-started" style="margin-top: 40px;">HELP & SUPPORT</h1>
+						<div class="theme-requirements mb-3">
+							<p class="mb-3">Free support policy includes troubleshooting, technical assistance with the product only. It
+								does not include any customization, additional features integration or concerns about third-
+								party plugins compatibility. But, support is applied to plugin(s) we have developed and
+								integrated ourselves. We appreciate your understanding!</p>
+							<p>If you need assistance and information on purchased product that is not covered in
+								documentation, mail them on our support at</p>
+							<p class="important"><a href="mailto:maantheme@gmail.com">maantheme@gmail.com</a></p>
+							<p class="mb-3">You can expect answer within 24-48 hours, usually as soon as possible in the order they
+								were received.</p>
+							<p>Additionally, if any email has no response from the item owner for more than 7 days, that
+								support email will be archived by default. However, if you need further assistance, you can
+								mail us again.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!--/right-->
+
+		</div>
+		<!--/row-->
+	</div>
+	<!--/container-->
+	<script src="assets/jquery-1.11.1.min.js.download"></script>
+	<script type="text/javascript" src="assets/SmoothScroll.js.download"></script>
+	<script src="assets/bootstrap.min.js.download"></script>
+	<script src="assets/scripts.js.download"></script>
+</body>
+
+</html>
